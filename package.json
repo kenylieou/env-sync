@@ -1,0 +1,32 @@
+{
+  "name": "env-sync",
+  "version": "1.0.0",
+  "description": "dotenv checker and sync ",
+  "main": "env-sync.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenylieou/env-sync.git"
+  },
+  "keywords": [
+    "dotenv",
+    "dotenv checker",
+    "dotenv sync",
+    "sync"
+  ],
+  "author": "Keny Lieou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenylieou/env-sync/issues"
+  },
+  "homepage": "https://github.com/kenylieou/env-sync#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "dotenv": "^6.1.0",
+    "dotenv-stringify": "^1.0.0",
+    "shallow-changes": "^1.0.2"
+  },
+  "bin": "./env-sync.js"
+}
