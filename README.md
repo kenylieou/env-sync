@@ -9,13 +9,19 @@ Usage:
 
 #### CLI
 ```bash
-./node_modules/.bin/env-sync.js
+./node_modules/.bin/env-sync.js .env .env.default
 ```
 
 #### DOCKER
 
 ```bash
 docker run --rm -v $(pwd):$(pwd) kenylieou/env-sync /path/to/.env /path/to/.env.sample
+```
+
+example:
+
+```bash
+docker run --rm -v $(pwd):$(pwd) kenylieou/env-sync $(pwd)/.env $(pwd)/.env.default -v
 ```
 
 #### CLI Options
@@ -41,7 +47,6 @@ VAR2=true
 VAR3=false
 VAR4=0
 VAR5="hello world"
-
 ```
 
 
