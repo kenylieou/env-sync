@@ -18,6 +18,21 @@ Usage:
 docker run --rm -v $(pwd):$(pwd) kenylieou/env-sync /path/to/.env /path/to/.env.sample
 ```
 
+#### CLI Options
+
+```
+Usage: env-sync [options] <file1> <file2>
+
+file1: is file need to check
+file2: is file use to compare
+
+Options:
+  -V, --version  output the version number
+  -s, --sync     Sync the missing environment key and write to file1
+  -v, --verbose  Display verbose
+  -h, --help     output usage information
+
+```
 This is in .env.default
 
 ```bash
