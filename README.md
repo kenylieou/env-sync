@@ -30,7 +30,7 @@ docker run --rm -v $(pwd):$(pwd) kenylieou/env-sync $(pwd)/.env $(pwd)/.env.defa
 Usage: env-sync [options] <file1> <file2>
 
 file1: is the file need to check
-file2: is the file use to compare
+file2: is the file used to compare
 
 Options:
   -V, --version  output the version number
