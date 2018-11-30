@@ -1,5 +1,5 @@
 # Dot Environment Sync
-Check different of 2 dotenv file and sync it 
+Check different of 2 dotenv files and sync it 
 
 ## Install
 
@@ -29,8 +29,8 @@ docker run --rm -v $(pwd):$(pwd) kenylieou/env-sync $(pwd)/.env $(pwd)/.env.defa
 ```
 Usage: env-sync [options] <file1> <file2>
 
-file1: is file need to check
-file2: is file use to compare
+file1: is the file need to check
+file2: is the file used to compare
 
 Options:
   -V, --version  output the version number
