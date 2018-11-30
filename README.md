@@ -3,7 +3,7 @@ Check different of 2 dotenv file and sync it
 
 ## Install
 
-`npm install --save env-sync.js`
+`npm install --save env-sync`
 
 Usage: 
 
@@ -51,6 +51,7 @@ VAR5="hello world"
 
 
 This is in .env
+
 ```bash
 VAR1=
 VAR2=1
@@ -58,6 +59,7 @@ VAR3=false
 ```
 
 After run env-sync
+
 ```bash
 VAR1=1
 VAR2=1
